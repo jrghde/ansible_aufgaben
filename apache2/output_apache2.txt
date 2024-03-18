@@ -1,0 +1,15 @@
+root@mxjoerg:~/ansible# ansible-playbook playbook_apache_ubuntu.yml 
+
+PLAY [Install Apache on Ubuntu 22.04] **************************************************************
+
+TASK [Gathering Facts] *****************************************************************************
+ok: [ubuntujoerg]
+
+TASK [Install Apache] ******************************************************************************
+changed: [ubuntujoerg]
+
+TASK [Start Apache] ********************************************************************************
+ok: [ubuntujoerg]
+
+PLAY RECAP *****************************************************************************************
+ubuntujoerg                : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
